@@ -1,0 +1,52 @@
+The target system is: Generic - 2.7.99 - riscv
+The host system is: Linux - 5.13.0-22-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/shayan/Tools/zephyr-sdk-0.13.2/riscv64-zephyr-elf/bin/riscv64-zephyr-elf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/shayan/zephyrproject/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/shayan/Tools/zephyr-sdk-0.13.2/riscv64-zephyr-elf/bin/riscv64-zephyr-elf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/shayan/zephyrproject/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+riscv64-zephyr-elf-gcc (crosstool-NG 1.24.0.378_e011758) 10.3.0
+Copyright (C) 2020 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Performing C SOURCE FILE Test check_fmacro_prefix_map__home_shayan_zephyrproject_zephyr_samples_modules_tflite_micro_hello_world_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem___home_shayan_Tools_zephyr_sdk_0_13_2_riscv64_zephyr_elf_bin____lib_gcc_riscv64_zephyr_elf_10_3_0_include___isystem___home_shayan_Tools_zephyr_sdk_0_13_2_riscv64_zephyr_elf_bin____lib_gcc_riscv64_zephyr_elf_10_3_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /home/shayan/zephyrproject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ab3a0 && [1/2] Building C object CMakeFiles/cmTC_ab3a0.dir/src.c.obj
+[2/2] Linking C executable cmTC_ab3a0
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test check_fmacro_prefix_map__home_shayan_zephyrproject_zephyr_samples_modules_tflite_micro_hello_world_CMAKE_SOURCE_DIR_CXX__nostartfiles__nostdlib__isystem___home_shayan_Tools_zephyr_sdk_0_13_2_riscv64_zephyr_elf_bin____lib_gcc_riscv64_zephyr_elf_10_3_0_include___isystem___home_shayan_Tools_zephyr_sdk_0_13_2_riscv64_zephyr_elf_bin____lib_gcc_riscv64_zephyr_elf_10_3_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /home/shayan/zephyrproject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4d57e && [1/2] Building CXX object CMakeFiles/cmTC_4d57e.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_4d57e
+
+
+Source file was:
+int main() { return 0; }
